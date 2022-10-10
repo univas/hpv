@@ -10,7 +10,7 @@
     "description": "Cartilha sobre conscientização sobre HPV",
     "icons": [{
         "src": "src/img/útero - preto.ico",
-        "type": "image/ico",
+        "type": "image/png",
         "sizes": "512x512"
     }]
 }
