@@ -1,0 +1,133 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: rgb(255, 225, 225);
+    height: 100%;
+}
+
+main {
+    padding: 1rem 0.5rem;
+}
+
+.container-1 {
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    align-content:center;
+    justify-content:space-around;
+}
+
+.title {
+    margin: 0.3rem 1rem 0.5rem 1rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1.3px black;
+}
+
+.subtitle {
+    padding: 0.4rem 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+img {
+    display: inline;
+    margin: 1rem auto;
+    width: 70%;
+}
+
+#cantoCima {
+    width: 30%;
+}
+
+.container {
+    background-color: rgb(90, 0, 0);
+    margin-bottom: 1em;
+    border-radius: 50px;
+}
+
+#menu {
+    width: 35px;
+    height: 30px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: rgb(90, 0, 0);
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(4px);
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.nav li a:hover {
+    font-weight: bold;
+}
+
+.nav li {
+    list-style: none;
+    padding: 16px 0;
+}
+
+.nav {
+    padding: 0;
+    margin: 0 20px;
+    transition: 0.3s ease;
+    display: none;
+}
+
+header {
+    display: inline-block;
+    margin-bottom: 2.5rem;
+}
+
+.menu-bg,
+#menu-bar {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 200, 200);
+    text-align: center;
+}
+
+#menu-bar {
+    z-index: 2;
+}
+
+.change .bar {
+    background-color: rgb(90, 0, 0);
+}
+
+.change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3 {
+    transform: translateY(-6px) rotate(45deg);
+}
+
+.change #bar2 {
+    opacity: 0;
+}
+
+.change {
+    display: block;
+}

@@ -1,0 +1,16 @@
+{
+    "short_name": "HPV Project",
+    "name": "HPV Project",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "theme-color": "#ffffff",
+    "background_color": "#000000",
+    "background-color": "#000000",
+    "description": "Cartilha sobre conscientização sobre HPV",
+    "icons": [{
+        "src": "src/img/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+    }]
+}
