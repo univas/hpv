@@ -21,6 +21,7 @@ self.addEventListener('install', function(event) {
                 './src/img/LUVA.png',
                 './src/img/MULHER.png',
                 './src/img/PROTEÇÃO.png',
+                '.src/img/maskable_icon_x384.png'
             ])
         })
     )

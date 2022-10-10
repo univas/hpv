@@ -9,8 +9,8 @@
     "background-color": "#000000",
     "description": "Cartilha sobre conscientização sobre HPV",
     "icons": [{
-        "src": "src/img/icon-512x512.png",
+        "src": "src/img/maskable_icon_x384.png",
         "type": "image/png",
-        "sizes": "512x512"
+        "sizes": "384x384"
     }]
 }
