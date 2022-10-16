@@ -30,6 +30,12 @@ main {
     font-weight: 600;
 }
 
+p {
+    text-indent: 50px;
+    white-space: nowrap;
+    line-height: 0.8;
+  }
+
 img {
     display: inline;
     margin: 1rem auto;
