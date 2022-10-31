@@ -6,4 +6,4 @@ Equipe:
 - Brendon Nogueira
 - Eduardo Faria
 - Felipe Costa
-- José Augusto
+
