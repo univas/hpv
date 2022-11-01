@@ -16,3 +16,49 @@ async function registerSW() {
         }
     }
 }
+
+let page = $('html, body')
+let animation = 1000
+
+
+$(".hpv").click(function() {
+    page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, animationDuration);
+    return false;
+});
+
+$(".fatores").click(function() {
+    page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, animationDuration);
+    return false;
+});
+
+$(".sintomas").click(function() {
+    page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, animationDuration);
+    return false;
+});
+
+$(".prevencao").click(function() {
+    page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, animationDuration);
+    return false;
+});
+
+$(".papanicolau").click(function() {
+    page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, animationDuration);
+    return false;
+});
+
+$(".tratamento").click(function() {
+    page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, animationDuration);
+    return false;
+});

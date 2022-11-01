@@ -8,6 +8,12 @@ main {
     padding: 1rem 0.5rem;
 }
 
+p {
+    text-indent: 30px;
+    white-space: nowrap;
+    line-height: 0.8;
+  }
+
 .container-1 {
     position: relative;
     display: flex;
