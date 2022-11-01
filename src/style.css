@@ -2,20 +2,15 @@ body {
     font-family: 'PT Sans', sans-serif;
     background-color: rgb(255, 225, 225);
     height: 100%;
+    /* background-color: blueviolet; */
 }
 
 main {
     padding: 1rem 0.5rem;
 }
 
-p {
-    text-indent: 30px;
-    white-space: nowrap;
-    line-height: 0.8;
-  }
-
 .container-1 {
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction:column;
     align-content:center;
@@ -36,7 +31,6 @@ p {
     font-weight: 600;
 }
 
-
 img {
     display: inline;
     margin: 1rem auto;
@@ -53,11 +47,13 @@ img {
     border-radius: 50px;
 }
 
-#menu {
+#menu {/* icone de hamburger */
     width: 35px;
     height: 30px;
-    margin: 15px;
+    /* margin: 0px 15px 0px 15px; */
+    /* margin: 15px; */
     cursor: pointer;
+    padding: 20px;
 }
 
 .bar {
@@ -94,30 +90,32 @@ img {
 }
 
 .nav {
-    padding: 0;
+    padding: 0 0 20px 0;
     margin: 0 20px;
     transition: 0.3s ease;
     display: none;
 }
 
 header {
-    display: inline-block;
-    margin-bottom: 2.5rem;
+    /* display: inline-block;
+    margin-bottom: 2.5rem; */
 }
 
 .menu-bg,
 #menu-bar {
-    top: 0;
+    /* top: 0;
     left: 0;
-    position: fixed;
+    position: fixed; */
     width: 100%;
     background-color: rgb(255, 200, 200);
+    
     text-align: center;
+    height: 100%;
 }
 
-#menu-bar {
+/* #menu-bar {
     z-index: 2;
-}
+} */
 
 .change .bar {
     background-color: rgb(90, 0, 0);
@@ -138,4 +136,9 @@ header {
 .change {
     display: block;
 }
-
+p, li{
+    font-size: 14px;
+    line-height: 1.5em;
+    letter-spacing: 2px; 
+    word-spacing: 4px;
+}
