@@ -17,7 +17,7 @@ async function registerSW() {
     }
 }
 
-let page = $('html, body')
+let page = $('body','html')
 let animation = 1000
 
 

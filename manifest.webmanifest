@@ -9,9 +9,8 @@
     "background-color": "#000000",
     "description": "Cartilha sobre conscientização sobre HPV",
     "icons": [{
-        "src": "src/img/maskable_icon_x384.png",
-        "sizes": "384x384",
+        "src": "img/utero-icon-main.png",
         "type": "image/png",
-        "purpose": "maskable" 
+        "sizes": "384x384"
     }]
 }

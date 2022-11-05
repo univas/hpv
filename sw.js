@@ -10,18 +10,18 @@ self.addEventListener('install', function(event) {
                 'script.js',
                 'style.css',
                 'reset.css',
-                './src/img/utero.png',
-                './src/img/ALERTA.png',
-                './src/img/canto inferior.png',
-                './src/img/canto superior.png',
-                './src/img/ESTETO.png',
-                './src/img/icon-512x512.png',
-                './src/img/INTERROGAÇÃO.png',
-                './src/img/logo-univas.png',
-                './src/img/LUVA.png',
-                './src/img/MULHER.png',
-                './src/img/PROTEÇÃO.png',
-                '.src/img/maskable_icon_x384.png'
+                'img/utero.png',
+                'img/ALERTA.png',
+                'img/canto inferior.png',
+                'img/canto superior.png',
+                'img/ESTETO.png',
+                'img/icon-512x512.png',
+                'img/INTERROGAÇÃO.png',
+                'img/logo-univas.png',
+                'img/LUVA.png',
+                'img/MULHER.png',
+                'img/PROTEÇÃO.png',
+                'img/utero-icon-main.png'
             ])
         })
     )
