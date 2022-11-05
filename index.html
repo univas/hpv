@@ -22,13 +22,12 @@
             </div>
             <ul class="nav" id="nav">
                 <div class="container">
-                    <li><a h
-                    ref="#">O que é HPV?</a></li>
-                    <li><a href="#">Fatores de risco</a></li>
-                    <li><a href="#">Sinais e sintomas</a></li>
-                    <li><a href="#">Prevenção</a></li>
-                    <li><a href="#">Papanicolau</a></li>
-                    <li><a href="#">Tratamento</a></li>
+                    <li><a href="#O que é HPV" class="hpv">O que é HPV?</a></li>
+                    <li><a href="#Fatores de risco" class="fatores">Fatores de risco</a></li>
+                    <li><a href="#Sinais e sintomas" class="sintomas">Sinais e sintomas</a></li>
+                    <li><a href="#Prevenção" class="prevencao">Prevenção</a></li>
+                    <li><a href="#Papanicolau" class="papanicolau">Papanicolau</a></li>
+                    <li><a href="#Tratamento" class="tratamento">Tratamento</a></li>
                 </div>
             </ul>
         </div>
@@ -41,23 +40,23 @@
         </div> -->
         <div class="container-1">
             <!-- <img src="src/img/canto superior.png" id="cantoCima"> -->
-            <img src="src/img/utero.png" id="utero" >
-            <img src="src/img/INTERROGAÇÃO.png" class="icone" id="interrogacao">
-            <img src="src/img/ALERTA.png" class="icone" id="alerta">
-            <img src="src/img/ESTETO.png" class="icone" id="esteto">
-            <img src="src/img/LUVA.png" class="icone" id="luva">
-            <img src="src/img/PROTEÇÃO.png" class="icone" id="protecao">
+            <img src="src/img/utero.png" id="utero"> 
+            <img src="src/img/INTERROGAÇÃO.png" class="icone" id="interrogacao" class="fatores">
+            <img src="src/img/ALERTA.png" class="icone" id="alerta" class="sintomas">
+            <img src="src/img/ESTETO.png" class="icone" id="esteto" class="prevencao">
+            <img src="src/img/LUVA.png"  class="icone" id="luva" class="papanicolau">
+            <img src="src/img/PROTEÇÃO.png" class="icone" id="protecao" class="tratamento">
             <img src="src/img/MULHER.png" class="icone" id="mulher">
         </div>
 
-        <div class="definicao">
-            <h2 class="subtitle">O que é HPV?</h2>
+        <div class="definicao" >
+            <h2 class="subtitle" class="hpv">O que é HPV?</h2>
             <p>O HPV é o causador da doença denominada condiloma acuminado conhecida popularmente como verruga genital ou crita de galo (NAGAKAWA et al, 2010)</p>
             <p>É considerada uma Doença sexualemnte transmissível (DST)podendo, portanto, afetar também o parceiro sexual.</p>
             <p>Ela é transmitida pelo Papiloma vírus humano, que tem relação com 90% dos casos de Câncer de colo uterino no mundo. Este câncer é o segundo que mais afeta as mulheres brasileiras de acordo com o Inca .</p>
         </div>
-        <div class="fatoresRiscoCancer" >
-            <h2>Fatores de risco para desenvolvimento do câncer do colo uterino:</h2>
+        <div class="fatoresRiscoCancer" class="fatores">
+            <h2 class="fatores">Fatores de risco para desenvolvimento do câncer do colo uterino:</h2>
             <ul>
                 <li>Infecção pelo Papiloma vírus humano (HPV)</li>
                 <li>Início precoce da vida sexual</li>
@@ -70,12 +69,12 @@
             </ul>
         </div>
         <div class="sintomasSinais">
-            <h2>Sinais e sintomas</h2>
+            <h2 class="sintomas">Sinais e sintomas</h2>
             <p>A maioria das muheres acometidas não apresentam sintomas,visto que pode-se demorar anos para que o vírus apresente seus sinais de atuação na paciente.</p>
             <p>Quando os sintomas são apresentados, com mais frequência se encontram verrugas genitais, ou placas de verrugas, coceira genital.</p>
         </div>
         <div class="prevencaoCancer">
-            <h2>Ações de prevenção ao câncer de colo uterino:</h2>
+            <h2 class="sintomas">Ações de prevenção ao câncer de colo uterino:</h2>
             <ul>
                 <li>Vacinação: A vacina quadrivalente (HPVQ) permite a imunização ativa contra Papilomavírus Humano dos tipos 6, 11, 16 e 18 (recombinante).</li>
                 <li>Exame preventivo de Papanicolau</li>
@@ -84,7 +83,7 @@
             </ul>
         </div>
         <div class="papanicolau">
-            <h2>Importância do exame preventivo de Papanicolau:</h2>
+            <h2 class="papanicolau">Importância do exame preventivo de Papanicolau:</h2>
             <p>O teste de Papanicolau consiste em um exame simples, barato e eficiente na detecção de lesões precursoras de neoplasias ou mesmo de neoplasias em fases iniciais (BRASIL, 2006).</p>
             <p>A frequência de realização do exame por cada paciente seria de: uma vez ao ano e, após dois exames anuais consecutivos negativos, a cada três anos (CEARÁ, 2002).</p>
             <p>Exame preventivo contra o HPV: o papanicolau é um exame ginecológico preventivo mais comum para identificar de lesões precursoras do câncer do colo do útero. Esse exame ajuda a detectar células anormais no revestimento do colo do útero, que
@@ -93,7 +92,7 @@
             </p>
         </div>
         <div>
-            <h2>Tratamento</h2>
+            <h2 class="tratamento">Tratamento</h2>
             <ul>
                 <li>Deve ser individualizado, considerando características (extensão, quantidade e localização) das lesões, disponibilidade de recursos e efeitos adversos.</li>
                 <li>São químicos, cirúrgicos e estimuladores da imunidade.
@@ -122,6 +121,8 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js"></script>
 
 </body>
 

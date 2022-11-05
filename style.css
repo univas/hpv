@@ -24,7 +24,10 @@ main {
     font-size: 2rem;
     text-shadow: 1px 1px 1.3px black;
 }
-
+.definicao > p{
+    line-height:  0.5;
+    text-indent: 50px;
+}
 .subtitle {
     padding: 0.4rem 0;
     text-transform: uppercase;
@@ -136,6 +139,9 @@ header {
 .change {
     display: block;
 }
+
+
 p, li{
     line-height: 1.5em;
+
 }
