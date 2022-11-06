@@ -12,10 +12,10 @@ main {
     /* position: relative; */
     display: flex;
     flex-direction:column;
-    align-content:center;
+    align-items:center;
     justify-content:space-around;
+    text-align: center;
 }
-
 .title {
     margin: 0.3rem 1rem 0.5rem 1rem;
     padding: 1rem 1rem;
@@ -147,7 +147,7 @@ header {
 ul.topico{
     list-style-type: disc;
     list-style-position: outside;
-    margin-left: 30px;
+    margin: 10px 0px 10px 30px;
 }
 ul.topico li{
     line-height: 1.5em;
@@ -155,6 +155,7 @@ ul.topico li{
 }
 .secao{
     padding: 10px 0 ;
+    text-align: justify;
 }
 .referencias{
     margin-top: 30px;
