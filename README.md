@@ -4,7 +4,6 @@ Projeto voluntário.
 Equipe: 
 
 - Brendon Nogueira
-- Eduardo Faria
 - Felipe Costa
 - Francisco 
 - Sabrina Coelho

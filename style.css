@@ -2,7 +2,6 @@ body {
     font-family: 'PT Sans', sans-serif;
     background-color: rgb(255, 225, 225);
     height: 100%;
-    /* background-color: blueviolet; */
 }
 
 main {
@@ -13,10 +12,10 @@ main {
     /* position: relative; */
     display: flex;
     flex-direction:column;
-    align-content:center;
+    align-items:center;
     justify-content:space-around;
+    text-align: center;
 }
-
 .title {
     margin: 0.3rem 1rem 0.5rem 1rem;
     padding: 1rem 1rem;
@@ -24,13 +23,23 @@ main {
     font-size: 2rem;
     text-shadow: 1px 1px 1.3px black;
 }
-
+p{
+    /* background-color: aqua; */
+    line-height:  1.5em;
+    text-indent: 30px;
+}
 .subtitle {
     padding: 0.4rem 0;
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 1.2rem;
+    margin: 10px 0;
 }
-
+.assunto{
+    padding: 0.4rem 0;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
 img {
     display: inline;
     margin: 1rem auto;
@@ -136,11 +145,28 @@ header {
 .change {
     display: block;
 }
- p{
+ul.topico{
+    list-style-type: disc;
+    list-style-position: outside;
+    margin: 10px 0px 10px 30px;
+}
+ul.topico li{
     line-height: 1.5em;
- }
-
- li{
-    line-height: 1.5em;
-
+    
+}
+.secao{
+    padding: 10px 0 ;
+    text-align: justify;
+}
+.referencias{
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cantoBaixo{
+    align-self: end;
+    margin: 0;
 }
