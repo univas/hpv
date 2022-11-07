@@ -21,7 +21,9 @@ self.addEventListener('install', function(event) {
                 'img/LUVA.png',
                 'img/MULHER.png',
                 'img/PROTEÇÃO.png',
-                'img/utero-icon-main.png'
+                'img/utero-icon-main.png',
+                'favicon.icon'
+
             ])
         })
     )
